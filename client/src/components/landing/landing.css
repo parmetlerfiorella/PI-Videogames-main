@@ -1,0 +1,35 @@
+.main {
+ 
+    background-image: url(https://articles-img.sftcdn.net/image/upload/v1582492793/videojuegos_11_call_of_duty_n8nrjf.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main__btn {
+    display: flex;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: transparent;
+    box-shadow: 0 0 50px  rgba(245, 149, 6, 0.322);
+    transition: background 300ms;
+  }
+  
+  .main__btn:hover {
+    background-color: rgba(21, 48, 35, 0.856);
+    box-shadow: 0 0 30px rgba(204, 204, 204, 0.959);
+  }
+

@@ -1,0 +1,48 @@
+ 
+  .titulo{
+    display: flex;
+    color: rgba(245, 149, 6, 0.322);
+    font-size: 35px;
+    margin-top: 0px;
+    padding-top: -20%;
+    padding-left: -1%;
+    padding-right: 10%;
+    position: fixed;
+  
+    /* -webkit-text-stroke: 0.3vw rgba(245, 149, 6, 0.212)  */
+  }
+
+
+  .div__search {
+    position: relative;
+    margin-left: -200px;
+    margin-top: 0;
+  }
+span{
+  color: rgb(21, 48, 35);
+  
+}
+  
+
+  .nav__input__search {
+    width: 13%;
+    height: 35px;
+    padding: 0 30px 0 20px;
+    border-radius: 10px;
+    margin-top:60px;
+    margin-bottom: 50px;
+    color: #fff;
+  
+    background: rgba(12, 12, 12, 0.555);
+    box-shadow: 0 0 15px  rgba(97, 74, 29, 0.907);
+    border: none;
+    outline: none;
+    transition: all 400ms;
+    position: fixed;
+  }
+  
+  @media screen and (min-width: 510px) {
+    .div__search__btn {
+      right: 25px;
+    }
+  }

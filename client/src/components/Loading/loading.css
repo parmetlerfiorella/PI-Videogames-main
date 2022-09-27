@@ -1,0 +1,32 @@
+ .loader {
+    position: absolute;
+    top: 20%;
+    right: 60%;
+    color: rgba(245, 149, 6, 0.288);
+    padding-top: 100px;
+    
+  }
+  
+  .spinning {
+    animation: spinner 1.2s linear infinite;
+  }
+  
+  @media screen and (min-width: 740px) {
+    .spinner {
+      right: 40%;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .spinner {
+      right: 50%;
+    }
+  }
+  
+  @keyframes spinner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
