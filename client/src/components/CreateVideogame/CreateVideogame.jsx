@@ -105,15 +105,16 @@ const CreateVideogame = () => {
   const handleSelectPlatforms = (e) => {
     setForm({
       ...form,
-      /* platforms: [...new Set ([...form.platforms, e.target.value])] */
-      [e.target.name]: [...form.platforms, e.target.value],
+      platforms: [...new Set ([...form.platforms, e.target.value])]
+    /*   [e.target.name]: [...form.platforms, e.target.value], */
     });
   };
   const handleSelectGenre = (e)=>{
+    console.log(e.target.value)
     setForm({
       ...form,
-      /* genres: [...new Set ([...form.genres, e.target.value])] */
-      [e.target.name]: [...form.genres, e.target.value]
+      genres: [...new Set ([...form.genres, e.target.value])]
+     /*  [e.target.name]: [...form.genres, e.target.value] */
         
     });
   }

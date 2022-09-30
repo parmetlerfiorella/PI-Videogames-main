@@ -25,8 +25,11 @@ const Videogames = ()=>{
   };
 
   useEffect(() => {
-    dispatch(get_videogames());
-  }, [dispatch]);
+    if(!videogames.length){
+       dispatch(get_videogames());
+    }   
+   
+  }, [dispatch, videogames]);
 
   return (
     <div className="div__container">
